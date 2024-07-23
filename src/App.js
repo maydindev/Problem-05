@@ -19,8 +19,8 @@ export default function Banner() {
           </p>
           <p className='banner-details'>
             <a href={bannerData.href} className='banner-details-link'>
-              Detaylar
-              <span aria-hidden='true'> &rarr;</span>
+              Detaylar 
+              <span aria-hidden='true'> &rarr; {bannerData.version}</span>
             </a>
           </p>
         </div>
